@@ -48,9 +48,9 @@ function Form() {
   };
 
   const deleteFiltros = () => {
-    setFilteredData(data);// reseta o table com oq vem da api sem filtros
-    setColumnNew(arrayOfColumn);// reseta a coluna com todas as opcoes
-    setFilters([]);// sera o estado com os filtros
+    setFilteredData(data);
+    setColumnNew(arrayOfColumn);
+    setFilters([]);
   };
 
   const deleteFiltro = (element) => {
